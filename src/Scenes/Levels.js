@@ -75,6 +75,10 @@ class Level extends Phaser.Scene{
     create() {
         let my = this.my;
 
+        // gameplay directions
+        document.getElementById('description').innerHTML = '<h2>Animal Abduction Frenzy!</h2><h2>SPACE: Shoot <h2>A - left <h2>D - right';
+
+
         // ========== CREATE BACKGROUND =======================================
             // sky
             for (let i = 0; i < 800; i += 256) {
